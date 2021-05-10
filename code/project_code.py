@@ -257,7 +257,7 @@ def use_model(model_load, X, y):
 
 
 def main():
-    file_path = 'data\churn.csv'
+    file_path = '../churn.csv'
     labels = ['0', '1']
     all_data = load_data(file_path)
     check_data_feature(all_data)  # 查看数据特征、属性等
